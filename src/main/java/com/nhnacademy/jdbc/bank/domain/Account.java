@@ -1,6 +1,12 @@
 package com.nhnacademy.jdbc.bank.domain;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
 import java.util.Objects;
+
 
 public class Account {
 
@@ -34,8 +40,10 @@ public class Account {
     }
 
     public boolean isWithdraw(long amount){
-        return balance-amount >= 0;
+        return balance-amount >= 0;//계좌에 있는 돈 - 빼려는 돈 = 양수면 true 음수이면 false
     }
+
+
 
     @Override
     public boolean equals(Object o) {
