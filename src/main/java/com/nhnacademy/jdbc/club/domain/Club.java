@@ -2,7 +2,7 @@ package com.nhnacademy.jdbc.club.domain;
 
 import java.time.LocalDateTime;
 import java.util.Objects;
-
+//
 public class Club {
     //todo#1 Club entity는 이아디, 이름, 생성일자 attribute를 가지고 있습니다.
     private final String clubId;
