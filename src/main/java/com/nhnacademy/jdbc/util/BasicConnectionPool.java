@@ -37,7 +37,7 @@ public class BasicConnectionPool  {
             throw new RuntimeException(e);
         }
     }
-
+//
     private void initialize(){
         //todo#2 maximumPoolSize만큼 Connection 객체를 생성해서 Connection Pool에 등록합니다.
         for (int i = 0; i < maximumPoolSize; i++) {
