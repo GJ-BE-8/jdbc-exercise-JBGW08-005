@@ -10,7 +10,7 @@ import java.util.Optional;
 
 @Slf4j
 public class PreparedStatementStudentRepository implements StudentRepository {
-//String id, String name, GENDER gender, int age , LocalDateTime createdAt
+//String id, String name, GENDER gender, int age , LocalDateTime createdAt//
     @Override
     public int save(Student student){
         //todo#1 학생 등록
