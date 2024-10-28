@@ -9,7 +9,7 @@ import java.util.Objects;
 
 
 public class Account {
-
+//
     //계좌번호, 편의를 위해서 1,2,3,4.... 형식으로 사용합니다.
     private long accountNumber;
     //이름
